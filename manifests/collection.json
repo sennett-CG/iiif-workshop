@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://sennett-CG.github.io/iiif-workshop/manifests/iiifworkshop.json",
     "label" : "Jorge Gomez Beyond Trend"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sennett-CG.github.io/iiif-workshop/manifests/iiifworkshop",
+    "label" : "Jorge Gomez Beyond Trend"
   } ]
 }
