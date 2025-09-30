@@ -1,0 +1,116 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sennett-CG.github.io/iiif-workshop/manifests/iiifworkshop",
+  "@type" : "sc:Manifest",
+  "label" : "Jorge Gomez Beyond Trend",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Pictures of Jorge Gomez look from Creative Growth Art Center",
+    "@language" : "en"
+  } ],
+  "license" : "®®®®®",
+  "attribution" : "Creative Growth Art Center and the artist",
+  "sequences" : [ {
+    "@id" : "http://d39d37b9-b10b-4186-8b8e-98b2d5434260",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://51f3ea4b-f4c1-474f-a9aa-bacc08044d2f",
+      "@type" : "sc:Canvas",
+      "label" : "Front view",
+      "height" : 7535,
+      "width" : 5999,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ee2907d4-a630-43c0-ae34-f82705b1d53d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/20250924-img-1105-pano%2f20250924-IMG_1105-Pano.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/20250924-img-1105-pano%2f20250924-IMG_1105-Pano.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 45202465,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 7535,
+          "width" : 5999
+        },
+        "on" : "http://51f3ea4b-f4c1-474f-a9aa-bacc08044d2f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f077892a-f5be-457e-8c1a-51472bf637c7",
+      "@type" : "sc:Canvas",
+      "label" : "Back view",
+      "height" : 7294,
+      "width" : 5870,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://28b1a49c-cd29-46ad-8828-6d48a98dbecc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/jorge-gomez-bt-2020-2%2fJorge%20Gomez_BT%202020%20_-2.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/jorge-gomez-bt-2020-2%2fJorge%20Gomez_BT%202020%20_-2.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 42815780,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 7294,
+          "width" : 5870
+        },
+        "on" : "http://f077892a-f5be-457e-8c1a-51472bf637c7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b66edbd9-1a9d-4781-96ed-d68db850c7df",
+      "@type" : "sc:Canvas",
+      "label" : "With pants",
+      "height" : 9009,
+      "width" : 5105,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://37557848-ff60-4640-9adf-32f741ceddb1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/jorge-gomez-bt-2020-and-2021%2fJorge%20Gomez_BT%202020%20and%202021%20_.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/jorge-gomez-bt-2020-and-2021%2fJorge%20Gomez_BT%202020%20and%202021%20_.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 45990945,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9009,
+          "width" : 5105
+        },
+        "on" : "http://b66edbd9-1a9d-4781-96ed-d68db850c7df"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
