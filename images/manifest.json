@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://sennett-CG.github.io/iiif-workshop/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in sennett-CG/iiif-workshop project"
+        ]
+    },
+    "items": []
+}
